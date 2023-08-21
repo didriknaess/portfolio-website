@@ -1,2 +1,2 @@
 # portfolio_website
-For improving knowledge of TypeScript with React and presenting curriculum with 
+Barebones HTML/CSS/TS-based web page for GitHub to present technical and work experience as well as listing former achievements in e.g. my swimming career, at university or through volunteering. 

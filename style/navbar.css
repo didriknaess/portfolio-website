@@ -1,0 +1,47 @@
+:root {
+    --primary-light: #DC0000;
+    --primary-dark: #850000;
+    --secondary-dark: #FFDB89;
+    --secondary-light: #FFF6C3;
+    --light: #F9F5EC;
+    --dark: #000000;
+}
+
+#navbar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--primary-dark);;
+    overflow: hidden;
+    position: fixed;
+    justify-content: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar #signature {
+    color: var(--secondary-light);
+    float: left;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2px 8px;
+    font-size: 18px;
+}
+
+.navbar #signature:hover {
+    color: var(--secondary-dark);
+}
+
+.navbar a {
+    color: var(--secondary-light);
+    margin: 5;
+    float: right;
+    text-align: center;
+    padding: 2px 8px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration-line: underline;
+    color: var(--secondary-dark);
+}
