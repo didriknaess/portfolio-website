@@ -4,7 +4,7 @@ import Main from './components/Main';
 export default function App() {
   return (
     <>
-      {/*<Navbar />*/}
+      <Navbar />
       <Main />
       <h1>
         Hello world!

@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 class Navbar extends Component {
     render() {
         return (
-            <div id="navbar" className="navbar sticky">
-                <p id="signature">Didrik Næss</p>
+            <div id="navbar">
+                <Link to="/"><p id="signature">Didrik Næss</p></Link>
                 <ol>
-                    <Link to="/contact">Contact</Link>
-                    <Link to="/resume">Resumé</Link>
-                    <Link to="/about">About</Link>
+                    <Link to="/contact" className="nav-element">Contact</Link>
+                    <Link to="/resume" className="nav-element">Resumé</Link>
+                    <Link to="/about" className="nav-element">About</Link>
                 </ol>
             </div>
         );

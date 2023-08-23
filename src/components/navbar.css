@@ -1,8 +1,8 @@
 :root {
-    --primary-light: #DC0000;
-    --primary-dark: #850000;
-    --secondary-dark: #FFDB89;
-    --secondary-light: #FFF6C3;
+    --primary-light: #253DA1;
+    --primary-dark: #000137;
+    --accent: #FFF192;
+    --secondary: #D8D8D8;
     --light: #F9F5EC;
     --dark: #000000;
 }
@@ -16,31 +16,33 @@
     left: 0px;
     width: 100%;
     z-index: 1000;
+    font-family: 'Mulish', 'Tahoma';
+    text-align: center;
 }
-.navbar #signature {
-    color: var(--secondary-light);
+
+#signature {
+    color: var(--secondary);
     float: left;
     font-weight: bolder;
-    text-align: center;
-    padding: 2px 8px;
-    font-size: 18px;
+    padding: 0 1rem;
+    font-size: 1.25rem;
 }
 
-.navbar #signature:hover {
-    color: var(--secondary-dark);
+#signature:hover {
+    color: var(--accent);
+    font-style: italic;
 }
 
-.navbar a {
-    color: var(--secondary-light);
+.nav-element {
+    color: var(--secondary);
     margin: 5;
     float: right;
-    text-align: center;
     padding: 2px 8px;
     text-decoration: none;
     font-size: 18px;
 }
 
-.navbar a:hover {
+.nav-element:hover {
     text-decoration-line: underline;
-    color: var(--secondary-dark);
+    color: var(--accent);
 }
